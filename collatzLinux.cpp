@@ -33,7 +33,7 @@ void collatz(int n){
 int main(){
 
     //variables
-    int n, test;
+    int n, test, trash;
     char repeat = 'Y';
 
     //while user wants to run the program, run it
@@ -44,7 +44,7 @@ int main(){
         test = 0;
 
         //input
-        system("clear"); 
+        trash = system("clear"); 
         cout << "\n---------COLLATZ---------\n\n";
         cout << "Insert an integer N: ";
         cin >> n;
